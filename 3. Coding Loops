@@ -1,0 +1,16 @@
+#coding loops assignment
+
+nterm = int(input('how many numbers want to print'))
+n1 , n2 = 0, 1
+count = 0
+if nterm < 0:
+  print('enter postive number')
+else :
+  pass 
+print('Fibannoci series')
+while count < nterm:
+  print(n1)
+  nth = n1 + n2
+  n1 = n2
+  n2 = nth
+  count +=1

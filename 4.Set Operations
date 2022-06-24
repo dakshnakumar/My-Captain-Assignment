@@ -1,0 +1,10 @@
+//declaring variable
+E = {0,2,4,8,6}
+N = {1,3,2,4,5}
+
+// set operation
+
+print(f'E UNION N :{E|N}')
+print(f'E INTERSECTION N :{E & N}')
+print(f'E DIFFERENCE N :{E - N}')
+print(f'E SYMMETRIC DIFFERENCE N :{E ^ N}')
